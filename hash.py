@@ -22,7 +22,7 @@ def main():
 			break
 
 		if htype == "md5" or htype == "md4" or htype == "sha1" or htype == "sha256" or htype == "sha512" or htype == "dsa":
-			print "You have selected " + htype + ".\n"
+			print "\nYou have selected the " + htype + " hashing algorithm.\n"
 		else:
 			print "You have entered a hash function that we do not support. Please try again. \n"
 			continue
